@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Trophy, CheckCircle2, Settings, Share2, Facebook, Instagram, Video } from 'lucide-react';
+import { User, Trophy, CheckCircle2, Settings, Share2, Globe, Camera, Play } from 'lucide-react';
 import { COLORS, LUGARES } from '../Services/api';
 
 export default function ProfileView({ currentUser, getDeptProgress, socialLinks, setSocialLinks, puntos, nivel, onOpenSettings }) {

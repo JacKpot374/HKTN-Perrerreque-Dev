@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import { User, Lock, Eye, EyeOff } from 'lucide-react';
-import { COLORS } from '../Services/api';
-import logoLani from '../Assets/Imagotipo_Lani 2_5.png';
+
+const COLORS = {
+  green: '#668F55',
+  blue: '#2878B8',
+  brown: '#B8785B',
+  yellow: '#E8B84A',
+  bg: '#FAF9F5',
+  text: '#50545A'
+};
 
 export default function LoginView({ onLogin }) {
   const [username, setUsername] = useState('');
@@ -26,7 +33,8 @@ export default function LoginView({ onLogin }) {
     <div className="flex flex-col items-center justify-center min-h-screen p-6 w-full" style={{ backgroundColor: COLORS.bg }}>
       <div className="w-full max-w-sm bg-white p-8 rounded-[40px] shadow-2xl border-t-[10px]" style={{ borderColor: COLORS.blue }}>
         <div className="flex flex-col items-center justify-center mb-6">
-          <img src={logoLani} alt="Logotipo Oficial Lani" className="w-48 h-auto object-contain drop-shadow-md" />
+          <div className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg mb-2" style={{ backgroundColor: COLORS.blue }}>L</div>
+          <span className="font-bold text-2xl tracking-wider uppercase" style={{ color: COLORS.blue, fontFamily: 'Krub, sans-serif' }}>Lani</span>
         </div>
         <p className="text-center text-sm mb-6 text-gray-500 font-medium">Descubre la esencia de Nicaragua.</p>
         {error && <div className="mb-4 p-3 bg-red-50 text-red-600 text-xs rounded-xl font-bold text-center">{error}</div>}
