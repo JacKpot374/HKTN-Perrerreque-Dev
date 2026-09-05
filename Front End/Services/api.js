@@ -1,3 +1,5 @@
+// api.js
+
 export const COLORS = {
   green: '#668F55',
   blue: '#2878B8',
@@ -17,15 +19,12 @@ export const MISSIONS = [
   { id: 'g1', lugarId: 'granada', titulo: 'Ruta del Cacao', tipoClasificacion: 'permanente', tipoAccion: 'visitarLugar', descripcion: 'Visita 3 talleres artesanales de chocolate y conoce el proceso.', puntosDeMision: 50 },
   { id: 'g2', lugarId: 'granada', titulo: 'Festival de la Poesía', tipoClasificacion: 'temporal', tipoAccion: 'responderPregunta', descripcion: 'Responde la trivia sobre los poetas participantes del festival.', puntosDeMision: 75 },
   { id: 'g3', lugarId: 'granada', titulo: 'Limpieza de Costas', tipoClasificacion: 'comunitaria', tipoAccion: 'tomarfoto', descripcion: 'Únete al grupo local en las Isletas y toma una foto de tu recolección.', puntosDeMision: 100 },
-  { id: 'g4', lugarId: 'granada', titulo: 'Apoyo a Cooperativa', tipoClasificacion: 'comunitaria', tipoAccion: 'visitarLugar', descripcion: 'Visita la cooperativa de mujeres tejedoras y apoya su trabajo.', puntosDeMision: 80 },
   { id: 'm1', lugarId: 'masaya', titulo: 'Misterios del Volcán', tipoClasificacion: 'permanente', tipoAccion: 'responderPregunta', descripcion: 'Completa la trivia sobre la historia del Parque Nacional Volcán Masaya.', puntosDeMision: 40 },
   { id: 'm2', lugarId: 'masaya', titulo: 'Baile de Negras', tipoClasificacion: 'temporal', tipoAccion: 'tomarfoto', descripcion: 'Toma una foto de los trajes tradicionales durante las fiestas patronales.', puntosDeMision: 120 },
   { id: 'm3', lugarId: 'masaya', titulo: 'San Juan de Oriente', tipoClasificacion: 'comunitaria', tipoAccion: 'visitarLugar', descripcion: 'Visita y adquiere cerámica directamente de los talleres familiares.', puntosDeMision: 90 },
-  { id: 'm4', lugarId: 'masaya', titulo: 'Reforestación', tipoClasificacion: 'comunitaria', tipoAccion: 'tomarfoto', descripcion: 'Participa en la siembra de árboles en los miradores de Catarina.', puntosDeMision: 110 },
   { id: 'l1', lugarId: 'leon', titulo: 'Ruta de los Murales', tipoClasificacion: 'permanente', tipoAccion: 'visitarLugar', descripcion: 'Encuentra y visita 5 murales históricos de la Revolución.', puntosDeMision: 60 },
   { id: 'l2', lugarId: 'leon', titulo: 'La Gritería Chiquita', tipoClasificacion: 'temporal', tipoAccion: 'responderPregunta', descripcion: 'Responde 3 preguntas sobre el origen de esta celebración.', puntosDeMision: 90 },
   { id: 'l3', lugarId: 'leon', titulo: 'Jornada Cerro Negro', tipoClasificacion: 'comunitaria', tipoAccion: 'tomarfoto', descripcion: 'Ayuda a limpiar el sendero del volcán y sube tu evidencia.', puntosDeMision: 150 },
-  { id: 'l4', lugarId: 'leon', titulo: 'Comedor Solidario', tipoClasificacion: 'comunitaria', tipoAccion: 'visitarLugar', descripcion: 'Almuerza en uno de los comedores del mercado apoyando a los locales.', puntosDeMision: 70 }
 ];
 
 // ESTO ERA LO QUE FALTABA
